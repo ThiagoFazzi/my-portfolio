@@ -5,7 +5,10 @@ class App extends Component {
   render() {
     return (
       <div className={classes.App}>
-        <h1>Portfolio</h1>
+        <div>Header</div>
+        <div>Menu</div>
+        <div>Content, New Components such(projects-post format, introduction)</div>
+        <div>Footer</div>
       </div>
     );
   }
