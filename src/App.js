@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import classes from './App.module.css';
+import Layout from './containers/Layout/Layout'
 
 class App extends Component {
   render() {
     return (
-      <div className={classes.App}>
-        <div>Header</div>
-        <div>Menu</div>
+      <div>
+        <Layout>
         <div>Content, New Components such(projects-post format, introduction)</div>
-        <div>Footer</div>
+        <div>Footer</div>          
+        </Layout>
       </div>
     );
   }
