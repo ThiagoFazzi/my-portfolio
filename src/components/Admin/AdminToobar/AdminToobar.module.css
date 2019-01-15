@@ -1,0 +1,11 @@
+.AdminToobar {
+  background-color: #c2c2c2;
+  height: 40px;
+  color: white;
+  left: 0;
+  top: 0;
+  flex-flow: column;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 20px;
+}
