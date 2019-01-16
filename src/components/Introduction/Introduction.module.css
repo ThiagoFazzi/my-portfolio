@@ -1,0 +1,13 @@
+.Introduction {
+  font-family: 'Jura';
+  text-align: justify;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 500px){
+  .Introduction {
+    font-family: 'Jura';
+    text-align: justify;
+    font-size: 1rem;
+  }
+}

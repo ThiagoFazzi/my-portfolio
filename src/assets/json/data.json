@@ -1,0 +1,63 @@
+{
+  "user": 1,
+  "introduction":[
+    {
+      "paragraph": 1,
+      "content": "After several years working in my family company in the facilities business, I have decided to change career and jump deeply in the software development field, I could get a Degree in Analysis and Software Development and after that, I have tried to learn more and more about the latest technologies we can use for these days."
+    },
+    {
+      "paragraph": 2,
+      "content": "I could learn a lot during my journey as a CFO at Dubhay, I have developed skills in management and was a big school for me, basically, I have stayed since the beginner and put my hands and my heart to help the company be a success, But Software development is my passion and in 2017 I decided to move to Europe to learn English and improve my communication skills."
+    },
+    {
+      "paragraph": 3,
+      "content": "In August of 2018 I have joined to a Codaisseur Code Academy in Amsterdam, I was attended for 10 hard fulltime weeks of totally coding, when I could learn all important aspects about how to be a strong independent developer, many technologies were reached me at this time and now I can say that I confident in almost those technologies and I am excited to start to apply at real world."
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "CNC Machine",
+      "description": "CNC Machine, arduino",
+      "images": [
+        {
+          "id": 1,
+          "path": ""
+        },
+        {
+          "id": 2,
+          "path": ""
+        },
+        {
+          "id": 3,
+          "path": ""
+        }
+      ]
+    }
+  ],
+  "Blog": [
+    {
+      "id": 1,
+      "title": "Post 1",
+      "description": "",
+      "date": "01/01/2019"
+    },
+    {
+      "id": 2,
+      "title": "Post 2",
+      "description": "",
+      "date": "02/01/2019"
+    },
+    {
+      "id": 3,
+      "title": "Post 3",
+      "description": "",
+      "date": "03/01/2019"
+    }
+  ] 
+
+  
+
+  
+  
+} 
