@@ -22,15 +22,18 @@
       "images": [
         {
           "id": 1,
-          "path": ""
+          "path": "Path photo 1 project 1",
+          "label": "photo 1 project 1"
         },
         {
           "id": 2,
-          "path": ""
+          "path": "Path photo 2 project 1",
+          "label": "photo 2 project 1"
         },
         {
           "id": 3,
-          "path": ""
+          "path": "Path photo 3 project 1",
+          "label": "photo 3 project 1"
         }
       ]
     }
