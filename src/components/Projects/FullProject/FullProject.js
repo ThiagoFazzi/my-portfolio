@@ -7,7 +7,7 @@ const fullProject = (props) => (
     <img src={props.image} alt={props.image} />
     <h1>{props.title}</h1>
     <p>{props.description}</p>
-    <Images images={props.images}/>
+    {(props.images) ? <Images images={props.images}/> : null}
   </div>
 )
 
