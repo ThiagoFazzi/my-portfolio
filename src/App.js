@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Layout from './containers/Layout/Layout'
 import Home from './containers/Home/Home'
 import Blog from './containers/Blog/Blog'
-import Projects from './containers/Projects/Projects'
 import Contact from './components/Contact/Contact'
+import FullProject from './containers/Projects/FullProject/FullProject'
+import ListProjects from './containers/Projects/ListProjects/ListProjects';
 
 class App extends Component {
   render() {
@@ -12,10 +13,13 @@ class App extends Component {
       <div>
         <BrowserRouter>
           <Layout>
-            <Route path='/' exact component={Home} />
-            <Route path='/blog' exact component={Blog} />
-            <Route path='/projects' exact component={Projects} />        
-            <Route path='/contact' exact component={Contact} />  
+            <Switch>
+              <Route path='/' exact component={Home} />
+              <Route path='/blog' exact component={Blog} />
+              <Route path='/projects' exact component={ListProjects} />        
+              <Route path='/contact' exact component={Contact} />
+              <Route path='/projects/:id' exact component={FullProject} />
+            </Switch>
           </Layout>
         </BrowserRouter>     
       </div>

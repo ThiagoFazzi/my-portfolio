@@ -1,0 +1,11 @@
+.FullProject {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 500px){
+  .FullProject {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

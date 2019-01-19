@@ -1,5 +1,5 @@
-.Project {
-  width: 46%;
+.FullProject {
+  width: 100%;
   margin: 15px;
   display: inline-block;
   border: 1px solid #929292;
@@ -8,12 +8,12 @@
   border-radius: 5px;
 }
 
-.Project img{
+.FullProject img {
   width: 100%;
 }
 
 @media (max-width: 500px) {
-  .Project {
+  .FullProject {
     width: 90%;
     margin: 10px;
     display: block;
