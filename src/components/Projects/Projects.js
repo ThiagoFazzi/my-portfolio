@@ -1,15 +1,18 @@
 import React from 'react'
+import classes from './Projects.module.css'
 import Project from './Project/Project'
 
-const projects = (props) => {
-  <>
-    {props.projects(project => {
+const projects = (props) => (
+    <div className={classes.Projects}>
+    {props.projects.map(project => 
       <Project 
-        images={project.images} 
         title={project.title} 
-        description={project.description} />
-    })}
-  </>
-}
+        key={project.id} 
+        description={project.description} 
+        image={project.image}
+        images={project.images} />
+    )}
+    </div>
+)
 
 export default projects

@@ -19,21 +19,91 @@
       "id": 1,
       "title": "CNC Machine",
       "description": "CNC Machine, arduino",
+      "image": "https://static-dc.autodesk.net/content/dam/autodesk/www/products/new-fusion-360/images/partners/mydiycnc-bifoot-sprite-small-800x396_s02.jpg",
       "images": [
         {
           "id": 1,
-          "path": "Path photo 1 project 1",
+          "path": "http://poe.olin.edu/2015/pancake/gantry/images/render_v3.jpg",
           "label": "photo 1 project 1"
         },
         {
           "id": 2,
-          "path": "Path photo 2 project 1",
+          "path": "http://dl36mmdz94630.cloudfront.net/uploads/assets/images/000/024/447/large/render.jpg?1423611569",
           "label": "photo 2 project 1"
         },
         {
           "id": 3,
-          "path": "Path photo 3 project 1",
+          "path": "http://dl36mmdz94630.cloudfront.net/uploads/assets/images/000/024/446/large/front_right_render.jpg?1423611568",
           "label": "photo 3 project 1"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "my-portifolio",
+      "description": "my-portifolio",
+      "image": "https://static-dc.autodesk.net/content/dam/autodesk/www/products/new-fusion-360/images/partners/mydiycnc-bifoot-sprite-small-800x396_s02.jpg",
+      "images": [
+        {
+          "id": 1,
+          "path": "http://poe.olin.edu/2015/pancake/gantry/images/render_v3.jpg",
+          "label": "photo 1 project 2"
+        },
+        {
+          "id": 2,
+          "path": "http://dl36mmdz94630.cloudfront.net/uploads/assets/images/000/024/447/large/render.jpg?1423611569",
+          "label": "photo 2 project 2"
+        },
+        {
+          "id": 3,
+          "path": "http://dl36mmdz94630.cloudfront.net/uploads/assets/images/000/024/446/large/front_right_render.jpg?1423611568",
+          "label": "photo 3 project 2"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "CNC Machine",
+      "description": "CNC Machine, arduino",
+      "image": "https://static-dc.autodesk.net/content/dam/autodesk/www/products/new-fusion-360/images/partners/mydiycnc-bifoot-sprite-small-800x396_s02.jpg",
+      "images": [
+        {
+          "id": 1,
+          "path": "http://poe.olin.edu/2015/pancake/gantry/images/render_v3.jpg",
+          "label": "photo 1 project 3"
+        },
+        {
+          "id": 2,
+          "path": "http://dl36mmdz94630.cloudfront.net/uploads/assets/images/000/024/447/large/render.jpg?1423611569",
+          "label": "photo 2 project 3"
+        },
+        {
+          "id": 3,
+          "path": "http://dl36mmdz94630.cloudfront.net/uploads/assets/images/000/024/446/large/front_right_render.jpg?1423611568",
+          "label": "photo 3 project 3"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "CNC Machine",
+      "description": "CNC Machine, arduino",
+      "image": "https://static-dc.autodesk.net/content/dam/autodesk/www/products/new-fusion-360/images/partners/mydiycnc-bifoot-sprite-small-800x396_s02.jpg",
+      "images": [
+        {
+          "id": 1,
+          "path": "http://poe.olin.edu/2015/pancake/gantry/images/render_v3.jpg",
+          "label": "photo 1 project 4"
+        },
+        {
+          "id": 2,
+          "path": "http://dl36mmdz94630.cloudfront.net/uploads/assets/images/000/024/447/large/render.jpg?1423611569",
+          "label": "photo 2 project 4"
+        },
+        {
+          "id": 3,
+          "path": "http://dl36mmdz94630.cloudfront.net/uploads/assets/images/000/024/446/large/front_right_render.jpg?1423611568",
+          "label": "photo 3 project 4"
         }
       ]
     }

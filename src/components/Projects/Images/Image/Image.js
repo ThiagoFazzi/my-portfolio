@@ -2,8 +2,7 @@ import React from 'react'
 
 const image = (props) => (
   <>
-    <p>{props.id}</p>
-    <p>{props.path}</p>
+    <img src={props.path} alt={props.label} />
     <p>{props.label}</p>
   </>
 )
