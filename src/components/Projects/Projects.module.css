@@ -1,6 +1,8 @@
 .Projects {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
+}
+
+.Projects a {
+  text-decoration: none;
+  color: black;
 }
