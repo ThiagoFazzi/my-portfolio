@@ -22,4 +22,13 @@
     padding: 5px;
     border-radius: 5px;
   }
+
+  .FullProject h1{
+    text-align: center;
+  }
+
+  .FullProject p{
+    padding: 5px;
+    text-align: center;
+  }
 }

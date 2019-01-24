@@ -16,7 +16,7 @@ class ListProjects extends Component {
   }
 
   projectsHandler(){
-    this.setState({projects: data.projects})
+    this.setState({projects: data[0].projects})
   }
 
   render(){

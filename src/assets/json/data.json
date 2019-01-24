@@ -1,4 +1,5 @@
-{
+[
+  {
   "user": 1,
   "introduction":[
     {
@@ -63,24 +64,19 @@
     },
     {
       "id": 3,
-      "title": "CNC Machine",
-      "description": "CNC Machine, arduino",
-      "image": "https://static-dc.autodesk.net/content/dam/autodesk/www/products/new-fusion-360/images/partners/mydiycnc-bifoot-sprite-small-800x396_s02.jpg",
+      "title": "Burger Builder",
+      "description": "React App where the user can make his own Burger",
+      "image": "https://cdn.trendhunterstatic.com/thumbs/burger-builder.jpeg",
       "images": [
         {
           "id": 1,
-          "path": "http://poe.olin.edu/2015/pancake/gantry/images/render_v3.jpg",
+          "path": "https://i.ytimg.com/vi/AXNclHBcwrk/maxresdefault.jpg",
           "label": "photo 1 project 3"
         },
         {
           "id": 2,
-          "path": "http://dl36mmdz94630.cloudfront.net/uploads/assets/images/000/024/447/large/render.jpg?1423611569",
+          "path": "https://i.ytimg.com/vi/KX3XJ63Cjgs/maxresdefault.jpg",
           "label": "photo 2 project 3"
-        },
-        {
-          "id": 3,
-          "path": "http://dl36mmdz94630.cloudfront.net/uploads/assets/images/000/024/446/large/front_right_render.jpg?1423611568",
-          "label": "photo 3 project 3"
         }
       ]
     },
@@ -128,9 +124,5 @@
       "date": "03/01/2019"
     }
   ] 
-
-  
-
-  
-  
-} 
+  }
+]

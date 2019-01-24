@@ -15,7 +15,7 @@ class FullProject extends Component {
   }
 
   fullProjectHandler(id){
-    const project = data.projects.filter(project => project.id === +id)
+    const project = data[0].projects.filter(project => project.id === +id)
     this.setState({project: project })
   }
 

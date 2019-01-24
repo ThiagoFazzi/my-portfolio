@@ -1,5 +1,14 @@
 .Images {
   width: 100%;
   display: flex;
-  flex-flow: row;
+  flex-flow: wrap;
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .Images {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+  }
 }
