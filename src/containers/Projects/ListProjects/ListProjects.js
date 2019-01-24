@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import classes from './ListProjects.module.css'
-import data from '../../../assets/json/data.json'
+import axios from 'axios'
 import { Link } from 'react-router-dom'
 
 import Project from '../../../components/Projects/Project/Project'
@@ -12,11 +12,11 @@ class ListProjects extends Component {
   }
 
   componentDidMount(){
-    this.projectsHandler()
-  }
-
-  projectsHandler(){
-    this.setState({projects: data[0].projects})
+    axios.get('https://react-my-portfolio.firebaseio.com/0/projects.json')
+      .then(response => {
+        this.setState({projects: response.data})
+      })
+      .catch(error => console.log(error))
   }
 
   render(){

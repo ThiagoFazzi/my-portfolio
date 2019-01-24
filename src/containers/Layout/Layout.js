@@ -12,10 +12,6 @@ class Layout extends Component {
     showAdmin: true
   }
 
-  componentDidMount() {
-    console.log('rendered')
-  }
-
   sideDrawerClosedHandler = () => {
     this.setState({showSideDrawer: false})
   }

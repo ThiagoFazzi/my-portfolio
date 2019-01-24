@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import classes from './Home.module.css'
-import data from '../../assets/json/data.json'
 import axios from 'axios'
 import Introduction from '../../components/Introduction/Introduction'
 
