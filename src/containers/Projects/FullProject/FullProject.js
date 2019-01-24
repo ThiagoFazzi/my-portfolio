@@ -27,6 +27,7 @@ class FullProject extends Component {
             title={project.title}
             image={project.image}
             description={project.description}
+            website={project.website}
             id={project.id}
             images={project.images} />
         )
