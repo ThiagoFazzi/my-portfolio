@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import classes from './Layout.module.css'
 import Toobar from '../../components/Navigation/Toobar/Toobar'
+import axios from 'axios'
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer'
 import AdminToobar from '../../components/Admin/AdminToobar/AdminToobar'
 
@@ -9,7 +10,16 @@ class Layout extends Component {
 
   state = {
     showSideDrawer: false,
-    showAdmin: true
+    showAdmin: true,
+    user: null
+  }
+
+  componentDidMount(){
+    axios.get('https://react-my-portfolio.firebaseio.com/0.json')
+      .then(response => {
+        this.setState({user: response.data})
+      })
+      .catch(error => error)
   }
 
   sideDrawerClosedHandler = () => {
