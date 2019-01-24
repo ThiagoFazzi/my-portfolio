@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import classes from './FullProject.module.css'
-import data from '../../../assets/json/data.json'
-
+import axios from 'axios'
 import Project from '../../../components/Projects/FullProject/FullProject'
 
 class FullProject extends Component {
@@ -11,12 +10,11 @@ class FullProject extends Component {
   }
 
   componentDidMount(){
-    this.fullProjectHandler(this.props.match.params.id)
-  }
-
-  fullProjectHandler(id){
-    const project = data[0].projects.filter(project => project.id === +id)
-    this.setState({project: project })
+    axios.get('https://react-my-portfolio.firebaseio.com/0/projects.json')
+      .then(response => {
+        const project = response.data.filter(project => project.id === +this.props.match.params.id)
+        this.setState({project: project})
+      })
   }
 
   render(){
